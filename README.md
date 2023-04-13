@@ -1,13 +1,13 @@
 # Life is Possible - Apps workshop
 
-Welcome all! 
+Welcome all to Life is Possible - Apps workshop! 
 
-# Reading materials
+## Reading materials
 
-All the latest lecture references will be in:
+All the latest lecture references will be in:  
 https://reemo.gitbook.io/life-is-possible-web-apps-workshop-sheng-ming-jiao-yu-shou-ji-cheng-shi-gong-zuo-fang/
 
-# Schedule
+## Schedule
 
 Period: 1400 - 1600 each Saturday
 
