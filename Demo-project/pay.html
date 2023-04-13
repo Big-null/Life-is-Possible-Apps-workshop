@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Deno - Payment</title>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="/images/deno.png" width="auto" height="50">
+                <b style="margin-left: 6px;">Save Deno</b>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="about.html">
+                    About us
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Content
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="what.html">
+                            What is Deno
+                        </a>
+                        <a class="navbar-item" href="why.html">
+                            Why saving deno
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="pay.html">
+                            Pay to support
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons" id="alertBtn">
+                        <a class="button is-primary">
+                            <strong>Say hi</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1 class="title" style="text-align: center;">
+            Support US
+        </h1>
+
+        <div class="columns">
+            <div class="column is-6" style="display: flex; justify-content: center; align-items: center;">
+                <div>
+                    
+                    <article class="message">
+                        <div class="message-header">
+                            <h1 style="font-size: 1.5em;">
+                                Save a deno now!
+                            </h1>
+                        </div>
+                        <div class="message-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mauris eros, egestas a venenatis vel, placerat eget ligula. Etiam rhoncus eu est sit amet congue. Sed non eros non eros feugiat viverra sed non metus. Etiam sit amet leo leo. Nulla cursus felis vel malesuada faucibus. Vestibulum faucibus mi diam, ac sagittis lorem auctor a.
+                        </div>
+                    </article>
+
+                    <article class="message">
+                        <div class="message-header">
+                            <h1 style="font-size: 1.5em;">
+                                What you will have
+                            </h1>  
+                        </div>
+                        <div class="message-body">
+                            Nothing but the smile from a deno                    
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+            <div class="column is-6" style="text-align: center;">
+                <img src="/images/deno2.jpeg" width="60%" > 
+            </div>
+            
+        </div>
+
+        <div class="card" style="padding: 1em">
+            <h1 class="title" style="text-align: center;">
+                Donate a deno now!
+            </h1>
+
+
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="text-align: center;">
+                <input type="hidden" name="business" value="r48n34@gmail.com"> 
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="item_name" value="Support deno fund">
+                <input type="hidden" name="amount" value="0.99">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="image" name="submit" border="0" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" alt="Buy Now">
+                <img alt="" border="0" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+            </form>
+        </div>
+
+    </div>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- sweetalert2 And common index.js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Our blumaHelper -->
+    <script src="js/blumaHelper.js"></script>
+
+</body>
+
+</html>

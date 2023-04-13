@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Deno - Why</title>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="/images/deno.png" width="auto" height="50"> 
+                <b style="margin-left: 6px;">Save Deno</b>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                    Home
+                </a>
+
+                <a class="navbar-item" href="about.html">
+                    About us
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Content
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="what.html">
+                            What is Deno
+                        </a>
+                        <a class="navbar-item" href="why.html">
+                            Why saving deno
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="pay.html">
+                            Pay to support
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons" id="alertBtn">
+                        <a class="button is-primary">
+                            <strong>Say hi</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="text-align: center;">
+        <h1 class="title">
+            Deno quiz
+        </h1>
+
+        <br>
+        <h3 class="subtitle">
+            Questions 1: How many words does "Deno" have?
+        </h3>
+        <input type="number" id="inputAnsOne">
+    
+        <br><br>
+        <h3 class="subtitle">
+            Questions 2 Single choice: What is deno? 
+        </h3>
+    
+        <select id="inputAnsTwo">
+            <option value="Cat">Cat</option>
+            <option value="Dinosaur">Dinosaur</option>
+            <option value="Dog">Dog</option>
+        </select> 
+        
+    
+        <br><br>
+        <h3 class="subtitle">Questions 3: What is the date of today?</h3>
+        <input type="date" id="inputAnsThree">
+    
+        <br><br>
+        <button id="submitBtn">Check</button>
+    
+        <h1 class="title" id="messageBox"></h1>
+
+    </div>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- sweetalert2 And common index.js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js"></script>
+
+    <!-- Our blumaHelper -->
+    <script src="js/blumaHelper.js"></script>
+
+    <script>
+        
+        const submitBtn = document.getElementById("submitBtn");
+        const messageBox = document.getElementById("messageBox");
+
+        const inputAnsOne = document.getElementById("inputAnsOne");
+        const inputAnsTwo = document.getElementById("inputAnsTwo");
+        const inputAnsThree = document.getElementById("inputAnsThree");
+
+        submitBtn.addEventListener("click", () => {
+            console.log(inputAnsOne.value);
+            console.log(inputAnsTwo.value);
+            console.log(inputAnsThree.value);
+
+           if(
+            inputAnsOne.value == "4"
+            && inputAnsTwo.value === "Dinosaur"
+            && inputAnsThree.value === new Date().toISOString().slice(0,10)
+            ){
+                messageBox.innerHTML = "All Correct! Nice!"
+            }
+            else{
+                messageBox.innerHTML = "Wrong, try again."
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>
