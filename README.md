@@ -1,13 +1,88 @@
 # Life is Possible - Apps workshop
 
+歡迎大家來到 Life is Possible - 應用程序工作室！  
 Welcome all to Life is Possible - Apps workshop! 
 
-## Reading materials
+## Reading materials 閱讀材料
 
+所有最新的講座參考資料將在：  
 All the latest lecture references will be in:  
 https://reemo.gitbook.io/life-is-possible-web-apps-workshop-sheng-ming-jiao-yu-shou-ji-cheng-shi-gong-zuo-fang/
 
-## Schedule
+## 日程 (中文)
+
+每週六 1600 - 1800
+
+<table>
+  <tr>
+    <th>課程</th>
+    <th>標題</th>
+    <th>描述</th>
+    <th>日期</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>程式設計入門</td>
+    <td>為未來學習做好準備</td>
+    <td>2023年4月15日</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>HTML 入門</td>
+    <td>HTML 概念和編碼</td>
+    <td>2023年4月22日</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>CSS 和 Bulma 入門</td>
+    <td>CSS 概念和編碼</td>
+    <td>2023年4月29日</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>JavaScript 入門</td>
+    <td>JavaScript 概念和編碼</td>
+    <td>2023年5月6日</td>
+  </tr>
+   <tr>
+    <td>5</td>
+    <td>使用 JavaScript 與 HTML 互動</td>
+    <td>在 HTML 中使用 JavaScript</td>
+    <td>2023年5月13日</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>進階- Github、部署、規劃</td>
+    <td>學習使用 Github、部署和規劃</td>
+    <td>2023年5月20日</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>第一週專案 / 額外講座</td>
+    <td>用於教學和專案製作</td>
+    <td>2023年5月27日</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>第二週專案</td>
+    <td>用於教學和專案製作</td>
+    <td>2023年6月3日</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>第三週專案</td>
+    <td>用於教學和專案製作</td>
+    <td>2023年6月10日</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>展示</td>
+    <td>演示專案</td>
+    <td>2023年6月17日</td>
+  </tr>
+</table>
+
+## Schedule (English)
 
 Period: 1400 - 1600 each Saturday
 
