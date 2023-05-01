@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> English Quick quiz </h1>
+
+    <h3>Questions 1: Fill the missing word #: ap#le (Tips: Is a fruit)</h3>
+    <input type="text" id="inputAnsOne">
+
+    <h3>Questions 2 Single choice: Choose the most sutiable options</h3>
+    <p>I go to school by 
+    <select id="inputAnsTwo">
+        <option value="Apple">Apple</option>
+        <option value="Bus">Bus</option>
+        <option value="Phone">Phone</option>
+    </select> ?
+    </p>
+
+    <h3>Questions 3: What is the date of the LAST Day in 2023?</h3>
+    <input type="date" id="inputAnsThree">
+
+    <br><br>
+    <button id="submitBtn">Check</button>
+
+    <p id="messageBox"></p>
+
+    <script>
+        
+        const submitBtn = document.getElementById("submitBtn");
+        const messageBox = document.getElementById("messageBox");
+
+        const inputAnsOne = document.getElementById("inputAnsOne");
+        const inputAnsTwo = document.getElementById("inputAnsTwo");
+        const inputAnsThree = document.getElementById("inputAnsThree");
+
+        submitBtn.addEventListener("click", () => {
+            console.log(inputAnsOne.value);
+            console.log(inputAnsTwo.value);
+            console.log(inputAnsThree.value);
+
+           if(
+            inputAnsOne.value == "a"
+            && inputAnsTwo.value === "Bus"
+            && inputAnsThree.value === "2023-12-31"
+            ){
+                messageBox.innerHTML = "All Correct!"
+            }
+            else{
+                messageBox.innerHTML = "Wrong, try again."
+            }
+        })
+
+    </script>
+</body>
+</html>

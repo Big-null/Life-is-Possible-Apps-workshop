@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <style>
+        body {
+            height: 100vh;
+            background-color: rgb(200, 0, 128);
+        }
+    </style>
+</head>
+<body>
+
+    <br>
+    <div class="container">
+        <h4 style="font-size: 2em; color: aliceblue;"> 
+            Drag me to change background color 😎
+        </h4>
+        <input id="colorSlider" type="range" min="0" max="255" value="0">
+    </div>
+
+    <script>
+        const colorSlider = document.getElementById("colorSlider");
+
+        colorSlider.addEventListener("input" , () => {
+            const sliderValue = colorSlider.value
+            document.body.style.backgroundColor = `rgb(200, ${sliderValue}, 128)`
+        })
+    </script>
+    
+</body>
+</html>

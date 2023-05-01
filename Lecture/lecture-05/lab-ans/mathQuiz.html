@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #rngNumberBox {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1> Quick quiz </h1>
+
+    <h3>Questions: 10 + <p id="rngNumberBox"></p> = ?</h3>
+    <input type="number" id="inputAns">
+    <button id="submitBtn">Check</button>
+
+    <p id="messageBox"></p>
+
+    <script>
+
+        const rngNumberBox = document.getElementById("rngNumberBox");
+        let rngNum = Math.floor( Math.random() * 30) + 1;
+        rngNumberBox.innerHTML = rngNum
+        
+        const submitBtn = document.getElementById("submitBtn");
+        const messageBox = document.getElementById("messageBox");
+        const inputAns = document.getElementById("inputAns");
+
+        submitBtn.addEventListener("click", () => {
+            let ans = inputAns.value
+
+            if(ans == 10 + rngNum){
+                messageBox.innerHTML = "Correct!"
+            }
+            else{
+                messageBox.innerHTML = "Wrong, try again."
+            }
+        })
+
+    </script>
+</body>
+</html>

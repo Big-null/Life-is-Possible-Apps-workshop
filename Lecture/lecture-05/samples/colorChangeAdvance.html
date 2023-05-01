@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <style>
+        body {
+            height: 100vh;
+            background-color: rgb(200, 0, 128);
+        }
+
+        h4 {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+
+    <br>
+    <div class="container">
+        <h4> 
+            Change me to adjust the background color 😎
+        </h4>
+        <input id="colorPickerBg" type="color">
+
+        <br>
+        <br>
+
+        <h4> 
+            Change me to adjust the text color 😎
+        </h4>
+        <input id="colorPickerText" type="color">
+    </div>
+
+    <script>
+        const colorPickerBg = document.getElementById("colorPickerBg");
+
+        colorPickerBg.addEventListener("input" , () => {
+            const colorValue = colorPickerBg.value
+            console.log(colorValue);
+
+            document.body.style.backgroundColor = colorValue
+        })
+
+
+        const colorPickerText = document.getElementById("colorPickerText");
+
+        colorPickerText.addEventListener("input" , () => {
+            const colorValue = colorPickerText.value
+            console.log(colorValue);
+
+            document.body.style.color = colorValue
+        })
+    </script>
+    
+</body>
+</html>
