@@ -121,7 +121,6 @@ calculateAgeStatus(16)
 
       console.log(c); // where is it logged to?
 </script>
-
 ```
 
 在網頁中按下`右鍵`或按下 `F12` 開啟 `DevTools` ，然後在右上方尋找 `Console`。
