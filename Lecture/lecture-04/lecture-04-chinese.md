@@ -89,7 +89,7 @@ console.log("This is " + str);
 
 ---
 
-# `console.log();`
+# `console.log()`
 
 這是 JavaScript 中用來列印訊息的基本函數
 
@@ -97,7 +97,7 @@ console.log("This is " + str);
 ```js
 console.log("Hello world"); // "Hello world"
 console.log("Hello " + "Peter"); // "Hello Peter"
-console.log("Hello", "Peter"); // "Hello May"
+console.log("Hello", "Peter"); // "Hello Peter"
 
 console.log(100); // 100
 console.log(100 + 45); // 145
@@ -219,7 +219,7 @@ console.log("mate")
 100 > 50  // Is 100 bigger than 50 ? true
 0 < 2     // Is 0 smaller than 2 ? true
 
-"tom" == "hello tom" // Is "tom" equal to "hello tom" ? false
+"tom"   == "hello tom" // Is "tom" equal to "hello tom" ? false
 "apple" == "apple"   // Is "apple" equal to "apple" ? true
 ```
 
@@ -235,8 +235,7 @@ console.log("mate")
 
 ---
 
-1 = true, 0 = false
-![w:950](https://i.ytimg.com/vi/7dvqfpXEjdg/maxresdefault.jpg)
+![w:950](https://s3.amazonaws.com/codecademy-content/courses/learn-python/Boolean+operators+dk.svg)
 
 ---
 
@@ -635,7 +634,7 @@ else if(nums == 20){
     console.log("I am a 20")
 }
 else{
-    console.log("nope") // This line will printed
+    console.log("nope") // This line will be printed
 }
 
 // "nope"
@@ -650,7 +649,7 @@ else{
 let nums = 10;
 
 if(nums == 10){ 
-   console.log("I am a 10") // This line will printed
+   console.log("I am a 10") // This line will be printed
 }
 else if(nums == 20){
     console.log("I am a 20")
@@ -812,7 +811,7 @@ const someStuffAlso = ...
 ```js
 function calculateAgeStatus(age){
     console.log(age)
-    // your code
+    // Your code
 }
 
 // Testing

@@ -98,7 +98,7 @@ This is the fundamental function for javascript to print stuff
 ```js
 console.log("Hello world"); // "Hello world"
 console.log("Hello " + "Peter"); // "Hello Peter"
-console.log("Hello", "Peter"); // "Hello May"
+console.log("Hello", "Peter"); // "Hello Peter"
 
 console.log(100); // 100
 console.log(100 + 45); // 145
@@ -236,8 +236,7 @@ In all programming languages, several symbo will be represent the logics.
 
 ---
 
-1 = true, 0 = false
-![w:950](https://i.ytimg.com/vi/7dvqfpXEjdg/maxresdefault.jpg)
+![w:950](https://s3.amazonaws.com/codecademy-content/courses/learn-python/Boolean+operators+dk.svg)
 
 ---
 
