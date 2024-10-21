@@ -5,9 +5,8 @@ Welcome all to Life is Possible - Apps workshop!
 
 ## Reading materials 閱讀材料
 
-所有最新的講座參考資料將在：  
-All the latest lecture references will be in:  
-https://reemo.gitbook.io/life-is-possible-web-apps-workshop-sheng-ming-jiao-yu-shou-ji-cheng-shi-gong-zuo-fang/
+所有最新的演講參考資料將放在這個存儲庫中。 
+All the latest lecture references will be in this repo.
 
 ## 日程 (中文)
 
