@@ -1,14 +1,14 @@
-# Life is Possible - Apps workshop
+# 📱 Life is Possible - Apps workshop
 
 歡迎大家來到 Life is Possible - 應用程序工作室！  
 Welcome all to Life is Possible - Apps workshop! 
 
-## Reading materials 閱讀材料
+## 📚 Reading materials 閱讀材料
 
 所有最新的演講參考資料將放在這個存儲庫中。 
 All the latest lecture references will be in this repo.
 
-## 日程 (中文)
+## 📅 日程 (中文)
 
 每週六 1600 - 1800
 
@@ -81,7 +81,7 @@ All the latest lecture references will be in this repo.
   </tr>
 </table>
 
-## Schedule (English)
+## 📅 Schedule (English)
 
 Period: 1400 - 1600 each Saturday
 
